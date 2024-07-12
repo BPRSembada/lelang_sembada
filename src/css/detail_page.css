@@ -1,0 +1,143 @@
+.main-detail-page {
+  background-color: #f4f7fa;
+}
+.cont-detail-pict {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 15%;
+}
+.test .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.img_detai_lelang {
+  width: 100%;
+  height: auto;
+}
+.body-detail-lelang {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 1.3rem;
+  align-items: start;
+  margin-inline: 15%;
+  padding-block: 3rem;
+  /* background-color: bisque; */
+}
+.detail-kiri {
+  flex-basis: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  height: 100%;
+  /* background-color: aqua; */
+}
+.deskripsi_lelang {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px 5px rgba(53, 52, 52, 0.1);
+}
+.detail_lelang {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px 5px rgba(53, 52, 52, 0.1);
+}
+.isi_detail_lelang {
+  display: flex;
+  justify-content: space-between;
+}
+.isi_detail_lelang p {
+  margin-bottom: 0rem;
+}
+.list_detail_lelang {
+  display: flex;
+  gap: 0.5rem;
+}
+.p1 {
+  width: 8rem;
+  /* background-color: aquamarine */
+}
+.p2 {
+  width: fit-content;
+  /* background-color: blue; */
+}
+.p3 {
+  /* background-color: blueviolet; */
+}
+.map_lelang {
+  background-color: white;
+  height: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px 5px rgba(53, 52, 52, 0.1);
+}
+.cont-map {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.back a {
+  background-color: red;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  box-shadow: 0 0 5px 5px rgba(53, 52, 52, 0.1);
+}
+
+.back a:hover {
+  background-color: brown;
+}
+.detail-kanan {
+  flex-basis: 30%;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 1.3rem;
+  /* background-color: blue; */
+  height: 100%;
+}
+.lelang_baru {
+  background-color: white;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px 5px rgba(53, 52, 52, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.cart_lelang_baru {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.cart_lelang_baru h4 {
+  font-size: 1.1rem;
+}
+.cart_lelang_baru a {
+  text-decoration: none;
+  color: red;
+}
+.cart_lelang_baru img {
+  width: 6rem;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.kategori_lelang {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px 5px rgba(53, 52, 52, 0.1);
+  width: 100%;
+}
+.kategori_lelang li {
+  color: red;
+}
+.kategori_lelang li a {
+  text-decoration: none;
+  color: red;
+}

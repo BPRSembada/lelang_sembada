@@ -1,0 +1,54 @@
+.main_contact {
+  background-color: #f4f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 10rem;
+  padding-inline: 10rem;
+}
+.cont_contact {
+  display: flex;
+}
+
+.item_contact {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.item_contact div {
+  width: 20rem;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px 5px rgba(53, 52, 52, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.item_contact div h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.item_contact div p {
+  margin-bottom: 0rem;
+  font-size: 1rem;
+}
+
+.item_contact div img {
+  height: auto;
+  width: 10rem;
+}
+.Map_contact {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px 5px rgba(53, 52, 52, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+}

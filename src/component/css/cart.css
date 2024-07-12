@@ -1,0 +1,41 @@
+.cont-cart-lelang {
+  width: 25rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  background-color: white;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+.cont-cart-lelang img {
+  width: 100%;
+}
+.cont-des-lelang {
+  padding-inline: 1rem;
+  padding-block: 1.5rem;
+}
+.cont-des-lelang h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.des-cart-lelang {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.des-cart-lelang p {
+  font-size: 1rem;
+  margin-bottom: 0rem;
+}
+
+.des-cart-lelang a {
+  border: none;
+  background: red;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.des-cart-lelang button:hover {
+  background-color: brown;
+}
