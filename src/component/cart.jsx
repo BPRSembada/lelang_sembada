@@ -16,9 +16,20 @@ const CartLelang = ({ data }) => {
       <div className="cont-cart-lelang">
         <img src={data.cover} alt="" />
         <div className="cont-des-lelang">
-          <p>
-            <FaRegClock /> {data.waktu_publish}
-          </p>
+          <div className="time_price_cart_lelang">
+            <p>
+              <FaRegClock /> {data.waktu_publish}
+            </p>
+            <div className="cont_price-cart">
+              <p style={{ color: "red", textDecoration: "line-through" }}>
+                Rp. {data.fiturs[0].HargaDetail.toLocaleString()}
+              </p>
+              <p className="price_new">
+                <IoPricetagsOutline /> Rp.
+                {data.fiturs[0].HargaDetail.toLocaleString()}
+              </p>
+            </div>
+          </div>
           <h2>{data.jenis_agunan}</h2>
           <p>{data.alamat[1]}</p>
           <p>
@@ -29,8 +40,14 @@ const CartLelang = ({ data }) => {
               <LuNewspaper /> {data.fiturs[0].Sertif}
             </p>
             <p>
-              <IoPricetagsOutline /> {data.fiturs[0].Harga}
+              LT : {data.fiturs[0].LT}
+              <sup>2</sup>
             </p>
+            <p>
+              LB : {data.fiturs[0].LB}
+              <sup>2</sup>
+            </p>
+
             <Button variant="danger" as={Link} to={`/DetailPage?${data.id}`}>
               View
             </Button>

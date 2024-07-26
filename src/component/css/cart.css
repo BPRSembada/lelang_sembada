@@ -12,6 +12,21 @@
   padding-inline: 1rem;
   padding-block: 1.5rem;
 }
+.cont-cart-lelang .time_price_cart_lelang {
+  display: flex;
+  justify-content: space-between;
+}
+.cont-cart-lelang .time_price_cart_lelang p {
+  margin-block: 0rem;
+}
+.cont_price-cart {
+  text-align: end;
+}
+.cont-cart-lelang .time_price_cart_lelang .price_new {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+}
 .cont-des-lelang h2 {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
