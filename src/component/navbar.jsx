@@ -1,11 +1,26 @@
-import React from "react";
+import { React } from "react";
 import { Navbar, Container, NavDropdown, Nav } from "react-bootstrap";
 import "../component/css/navbar.css";
+import { useSelector, useDispatch } from "react-redux";
+import { setData } from "../redux/pagination_data";
 
 const NaviBar = () => {
+  const data = useSelector((state) => state.pagin.data);
+  const dispatch = useDispatch();
+
+  const handleJual = () => {
+    dispatch(setData("jual"));
+  };
+
+  const handleLelang = () => {
+    dispatch(setData("lelang"));
+  };
+  const handleAll = () => {
+    dispatch(setData("all"));
+  };
   return (
     <div className="main_navbar">
-      <Navbar expand="lg" className="bg-body-tertiary">
+      <Navbar expand="lg" className="bg-body-tertiary" fixed="top">
         <Container>
           <Navbar.Brand href="/">
             <img
@@ -20,10 +35,16 @@ const NaviBar = () => {
             <Nav>
               <Nav.Link href="/">Home</Nav.Link>
               <NavDropdown title="Kategori" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item href="#All_kategori" onClick={handleAll}>
+                  All
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#Jual_kategori" onClick={handleJual}>
                   Jual Jaminan
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
+                <NavDropdown.Item
+                  href="#Lelang_kategori"
+                  onClick={handleLelang}
+                >
                   Lelang Jaminan
                 </NavDropdown.Item>
               </NavDropdown>

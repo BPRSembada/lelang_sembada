@@ -54,3 +54,18 @@
 .des-cart-lelang button:hover {
   background-color: brown;
 }
+@media (min-width: 1301px) and (max-width: 1400px) {
+}
+@media (min-width: 1201px) and (max-width: 1300px) {
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (min-width: 480px) and (max-width: 767px) {
+}
+@media (min-width: 360px) and (max-width: 479px) {
+  .cont-cart-lelang {
+    width: 20rem;
+  }
+}

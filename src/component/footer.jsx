@@ -19,7 +19,9 @@ const Footer = () => {
           </div>
           <div className="F1">
             <h3>Whatsapp Center</h3>
-            <img src="/assets/wa_center.png" alt="Whatsapp_center" />
+            <a href="https://wa.me/6288801362000" target="_blank">
+              <img src="/assets/wa_center.png" alt="Whatsapp_center" />
+            </a>
           </div>
           <div className="F2">
             <h3>Berizin dan diawasi OJK</h3>

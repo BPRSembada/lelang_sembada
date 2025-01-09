@@ -19,8 +19,9 @@ const Contact = () => {
           </div>
           <div>
             <h3>Whatsapp Center</h3>
-            <a href="https://wa.me/6288801362000" target="blank"></a>
-            <img src="/assets/wa_center.png" alt="Whatsapp_center" />
+            <a href="https://wa.me/6288801362000" target="blank">
+              <img src="/assets/wa_center.png" alt="Whatsapp_center" />
+            </a>
           </div>
           <div>
             <h3>Jam Buka</h3>
@@ -30,8 +31,6 @@ const Contact = () => {
         <div className="Map_contact">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7604439824418!2d106.82655527589817!3d-6.162828760401159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5db31cfffff%3A0xc40a2546a3af0783!2sAsean%20Tower!5e0!3m2!1sid!2sid!4v1715691507816!5m2!1sid!2sid"
-            width="900"
-            height="450"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
