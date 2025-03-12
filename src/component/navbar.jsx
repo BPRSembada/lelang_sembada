@@ -20,7 +20,7 @@ const NaviBar = () => {
   };
   return (
     <div className="main_navbar">
-      <Navbar expand="lg" className="bg-body-tertiary" fixed="top">
+      <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
           <Navbar.Brand href="/">
             <img

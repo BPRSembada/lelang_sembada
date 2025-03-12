@@ -47,9 +47,12 @@
 }
 .detail_lelang {
   background-color: white;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 1rem;
   box-shadow: 0 0 5px 5px rgba(53, 52, 52, 0.1);
+}
+.detail_lelang h2 {
+  font-size: 1.5rem;
 }
 .isi_detail_lelang {
   display: flex;
@@ -57,11 +60,13 @@
 }
 .isi_detail_lelang p {
   margin-bottom: 0rem;
+  font-size: 18px;
 }
 .list_detail_lelang {
   display: flex;
   gap: 0.5rem;
 }
+
 .p1 {
   width: 8rem;
   /* background-color: aquamarine */
@@ -70,9 +75,9 @@
   width: fit-content;
   /* background-color: blue; */
 }
-.p3 {
-  /* background-color: blueviolet; */
-}
+/* .p3 {
+  background-color: blueviolet;
+} */
 .map_lelang {
   background-color: white;
   height: 30rem;

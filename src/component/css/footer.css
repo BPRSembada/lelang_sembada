@@ -6,6 +6,7 @@
   padding-top: 4rem;
   padding-bottom: 2rem;
   gap: 2rem;
+  background-color: var(--abu_muda--);
 }
 .main_footer .copyright h3 {
   font-size: 1rem;

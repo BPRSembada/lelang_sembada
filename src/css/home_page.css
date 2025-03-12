@@ -1,113 +1,356 @@
-.hero_home {
-  background-image: url("/assets/hero_home.jpg");
-  height: 55vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+:root {
+  --merah_main--: #e2050c;
+  --merah_muda--: #f7a4a5;
+  --abu_muda--: #e5e7eb;
+}
+/* 
+====================
+Poin Lelang Sembada
+====================
+*/
+.poin_lelang {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding-block: 5rem;
+  padding-inline: 10rem;
+  gap: 3rem;
   justify-content: center;
 }
-.cont-search-header {
-  backdrop-filter: blur(0.5px);
-  background-color: rgba(255, 255, 255, 0.5);
-  padding-inline: 15rem;
-  padding-block: 2rem;
-  border-radius: 1rem;
-  display: flex;
-  flex-direction: column;
+.cart_poin_lelang {
   align-items: center;
+  display: flex;
   gap: 1rem;
 }
-.cont-search-header div {
-  background-color: white;
-  padding-block: 0.8rem;
-  padding-inline: 0.8rem;
-  border-radius: 0.5rem;
+.cart_poin_lelang img {
+  width: auto;
+  height: 6rem;
+}
+.cart_poin_lelang div h2 {
+  color: var(--merah_main--);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+/* 
+====================
+Steps Lelang Sembada
+====================
+*/
+.cont_steps {
+  padding-top: 3rem;
+  background-color: var(--abu_muda--);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.cont_steps h3 {
+  text-align: center;
+  color: var(--merah_main--);
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+.steps-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 100%;
+  gap: 3rem;
 }
-.cont-search-header div input {
-  margin-right: 1rem;
-  border-radius: 0.5rem;
-  border: none;
-  height: 100%;
-  width: 100%;
-}
-
-.cont-search-header div button {
-  border: none;
-  background-color: transparent;
-  color: white;
-  background-color: red;
-  border-radius: 0.5rem;
-  font-size: 1.2rem;
-  height: 100%;
-}
-.lelang-section {
-  background-color: #f4f7fa;
-  padding-inline: 4rem;
-  padding-block: 10rem;
-}
-.lelang-section h1 {
-  font-size: 2.3rem;
-  font-weight: 700;
-  margin-bottom: 2.5rem;
-  color: red;
-  text-align: center;
-}
-.cont-lelang {
-  background-color: #f4f7fa;
+.step {
   display: flex;
-  justify-content: space-evenly;
-  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 270px;
+}
+.step img {
+  height: 3rem;
+}
+.step .content h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.8rem;
+}
+.cont_steps .steps_ilustrasi {
+  width: 30rem;
+}
+/* 
+============================
+List Properti Lelang Sembada
+============================
+*/
+.cont_cart_lelang {
+  padding-inline: 5rem;
+  padding-top: 5rem;
+}
+.cont_cart_lelang h3 {
+  color: var(--merah_main--);
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.cont_button_lelang {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.cont_button_lelang button {
+  border-radius: 0.5rem;
+  color: var(--merah_main--);
+  border: 2px solid var(--merah_main--);
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: transparent;
   flex-wrap: wrap;
 }
+.cont_button_lelang button:hover {
+  background-color: var(--merah_main--);
+  color: white;
+}
+/* 
+==============
+container card
+==============
+*/
+.main_new_detail {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(300px, 1fr)
+  ); /* Kolom fleksibel */
+  gap: 1rem; /* Jarak antar elemen */
+  padding-inline: 5rem;
+  justify-content: center; /* Pusatkan item secara horizontal */
+  justify-items: center; /* Pusatkan setiap item */
+}
 @media (min-width: 1301px) and (max-width: 1400px) {
+  .poin_lelang {
+    padding-inline: 2rem;
+    gap: 1rem;
+  }
+  .cart_poin_lelang {
+    gap: 1rem;
+  }
+  .steps-container {
+    gap: 1rem;
+    justify-content: center;
+    align-items: start;
+    padding-inline: 1rem;
+  }
+  .cont_steps {
+    padding-inline: 1rem;
+  }
+  .step {
+    width: 220px;
+  }
 }
 @media (min-width: 1201px) and (max-width: 1300px) {
+  .poin_lelang {
+    padding-inline: 2rem;
+    gap: 1rem;
+  }
+  .cart_poin_lelang {
+    gap: 1rem;
+  }
+  .steps-container {
+    gap: 1rem;
+    justify-content: center;
+    align-items: start;
+    padding-inline: 1rem;
+  }
+  .cont_steps {
+    padding-inline: 1rem;
+  }
+  .step {
+    width: 220px;
+  }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
-  .lelang-section h1 {
-    text-align: start;
-    margin-left: 0rem;
+  .poin_lelang {
+    padding-inline: 2rem;
+    gap: 1rem;
   }
-  .lelang-section {
-    /* padding-inline: 1rem; */
-    padding-block: 3rem;
+  .cart_poin_lelang {
+    gap: 1rem;
+  }
+  .steps-container {
+    gap: 1rem;
+    justify-content: center;
+    align-items: start;
+    padding-inline: 1rem;
+  }
+  .cont_steps {
+    padding-inline: 1rem;
+  }
+  .step {
+    width: 200px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .cont-search-header {
+  .poin_lelang {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .cart_poin_lelang {
+    gap: 1rem;
+  }
+
+  /* 
+  ====================
+  Steps Lelang Sembada
+  ====================
+  */
+
+  .steps-container {
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .step {
+    flex-direction: row;
+    width: 50%;
+    gap: 1rem;
+    text-align: start;
+  }
+
+  .cont_steps .steps_ilustrasi {
+    width: 30rem;
+  }
+  /* 
+  ==============
+  container card
+  ==============
+  */
+  .cont_cart_lelang {
+    padding-inline: 1rem;
+  }
+  .cont_cart_lelang h3 {
+    font-size: 1.5rem;
+  }
+  .main_new_detail {
     padding-inline: 1rem;
   }
 }
 @media (min-width: 480px) and (max-width: 767px) {
-  .cont-search-header {
-    padding-inline: 1rem;
-  }
-  .lelang-section {
+  .poin_lelang {
+    flex-direction: column;
     padding-inline: 1rem;
     padding-block: 2rem;
+    gap: 1rem;
   }
-  .lelang-section h1 {
+  .cart_poin_lelang {
+    gap: 0.5rem;
+  }
+  .cart_poin_lelang img {
+    height: 5rem;
+  }
+  /* 
+====================
+Steps Lelang Sembada
+====================
+*/
+  .cont_steps h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .steps-container {
+    flex-direction: column;
+    align-items: start;
+    padding-inline: 1rem;
+    gap: 1rem;
+  }
+  .step {
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
     text-align: start;
-    margin-left: 0rem;
+    /* align-items: start; */
+  }
+  .step img {
+    height: 2rem;
+  }
+  .step p {
+    margin-top: 0rem;
+  }
+  .step h3 {
+    text-align: start;
+    margin-bottom: 0rem;
+  }
+  .cont_steps .steps_ilustrasi {
+    width: 25rem;
+  }
+  /* 
+==============
+container card
+==============
+*/
+  .cont_cart_lelang {
+    padding-inline: 1rem;
+  }
+  .cont_cart_lelang h3 {
+    font-size: 1.5rem;
+  }
+  .main_new_detail {
+    padding-inline: 1rem;
   }
 }
 @media (min-width: 360px) and (max-width: 479px) {
-  .cont-search-header {
-    padding-inline: 1rem;
-  }
-  .lelang-section {
+  .poin_lelang {
+    flex-direction: column;
     padding-inline: 1rem;
     padding-block: 2rem;
+    gap: 1rem;
   }
-  .lelang-section h1 {
+  .cart_poin_lelang {
+    gap: 0.5rem;
+  }
+  .cart_poin_lelang img {
+    height: 5rem;
+  }
+  /* 
+====================
+Steps Lelang Sembada
+====================
+*/
+  .cont_steps h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .steps-container {
+    flex-direction: column;
+    align-items: start;
+    padding-inline: 1rem;
+    gap: 1rem;
+  }
+  .step {
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
     text-align: start;
-    margin-left: 0rem;
+    /* align-items: start; */
+  }
+  .step img {
+    height: 2rem;
+  }
+  .step p {
+    margin-top: 0rem;
+  }
+  .step h3 {
+    text-align: start;
+    margin-bottom: 0rem;
+  }
+  .cont_steps .steps_ilustrasi {
+    width: 20rem;
+  }
+  /* 
+==============
+container card
+==============
+*/
+  .cont_cart_lelang {
+    padding-inline: 1rem;
+  }
+  .cont_cart_lelang h3 {
+    font-size: 1.5rem;
+  }
+  .main_new_detail {
+    padding-inline: 1rem;
   }
 }
