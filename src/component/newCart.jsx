@@ -48,7 +48,7 @@ const NewCart = ({ data }) => {
           LB : {data.fiturs[0].LB}
           <sup>2</sup>
         </span>
-        <Link to={`/Page_Detail?${data.id}`} className="Link_detail">
+        <Link to={`/DetailPage?${data.id}`} className="Link_detail">
           <MdRemoveRedEye className="icon_card" />
         </Link>
       </div>

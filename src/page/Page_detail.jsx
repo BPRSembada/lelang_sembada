@@ -126,7 +126,7 @@ const PageDetail = () => {
             </div>
             <div className="i_3">
               <p>
-                <a href={DetailLelang[0].map} target="_blank">
+                <a href={DetailLelang[0].map[1]} target="_blank">
                   Map Lokasi
                 </a>
               </p>
