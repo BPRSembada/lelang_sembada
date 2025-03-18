@@ -45,7 +45,7 @@ export const production_data_lelang = [
       "Pulogadung - Jakarta Timur",
       "Jalan Mustika jaya No. 6 RT 002 RW 011 Blok S, Kav. No. 418 & No. 434 - 435, Kel. Rawamangun Kec. Pulogadung",
     ],
-    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7604041114964!2d106.82655527498989!3d-6.162834093824405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5db31cfffff%3A0xe470c408c1219a57!2sPT.%20BPR%20Multi%20Sembada%20Dana!5e0!3m2!1sid!2sid!4v1736411500510!5m2!1sid!2sid",
+    map: ["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7604041114964!2d106.82655527498989!3d-6.162834093824405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5db31cfffff%3A0xe470c408c1219a57!2sPT.%20BPR%20Multi%20Sembada%20Dana!5e0!3m2!1sid!2sid!4v1736411500510!5m2!1sid!2sid","https://maps.app.goo.gl/TtAKuJWBuxmm3Fiw5"]
   },
   {
     id: 2,
@@ -80,7 +80,7 @@ export const production_data_lelang = [
       "Depok",
       "Jl. Janger I No. 164, RT.05/RW.12 Kelurahan Mekar Jaya, Kecamatan Sukmajaya Kota Depok",
     ],
-    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7604041114964!2d106.82655527498989!3d-6.162834093824405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5db31cfffff%3A0xe470c408c1219a57!2sPT.%20BPR%20Multi%20Sembada%20Dana!5e0!3m2!1sid!2sid!4v1736411500510!5m2!1sid!2sid",
+    map: ["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7604041114964!2d106.82655527498989!3d-6.162834093824405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5db31cfffff%3A0xe470c408c1219a57!2sPT.%20BPR%20Multi%20Sembada%20Dana!5e0!3m2!1sid!2sid!4v1736411500510!5m2!1sid!2sid","https://maps.app.goo.gl/TtAKuJWBuxmm3Fiw5"]
   },
   {
     id: 3,
@@ -157,7 +157,7 @@ export const production_data_lelang = [
       "Tangerang Selatan",
       "Ruko Pamulang Permai SH.22/04 RT.007/004 Desa Pamulang Barat Kec. Pamulang ",
     ],
-    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7604041114964!2d106.82655527498989!3d-6.162834093824405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5db31cfffff%3A0xe470c408c1219a57!2sPT.%20BPR%20Multi%20Sembada%20Dana!5e0!3m2!1sid!2sid!4v1736411500510!5m2!1sid!2sid",
+    map: ["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7604041114964!2d106.82655527498989!3d-6.162834093824405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5db31cfffff%3A0xe470c408c1219a57!2sPT.%20BPR%20Multi%20Sembada%20Dana!5e0!3m2!1sid!2sid!4v1736411500510!5m2!1sid!2sid","https://maps.app.goo.gl/TtAKuJWBuxmm3Fiw5"]
   },
   {
     id: 5,
@@ -202,7 +202,7 @@ export const production_data_lelang = [
       "Kota Bekasi",
       "Komp. Kemang melati raya, Blok J no 4, Kel. Bojong Rawalumbu, Kec. Rawalumbu.",
     ],
-    map: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3965.84508204769!2d106.98066999999999!3d-6.284085999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMTcnMDIuNyJTIDEwNsKwNTgnNTAuNCJF!5e0!3m2!1sid!2sid!4v1736398239600!5m2!1sid!2sid",
+    map: ["https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3965.84508204769!2d106.98066999999999!3d-6.284085999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMTcnMDIuNyJTIDEwNsKwNTgnNTAuNCJF!5e0!3m2!1sid!2sid!4v1736398239600!5m2!1sid!2sid","https://maps.app.goo.gl/4vVMXb1vRzm6bwrs7"]
   },
   // {
   //   id: 6,
@@ -356,7 +356,7 @@ export const production_data_lelang = [
       },
     ],
     alamat: ["Jakarta Pusat", "Pasar Tanah Abang, Blok B Lt SLG Los A No. 128"],
-    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5643105601935!2d106.80935627499007!3d-6.189009593798558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f69b7ca68c63%3A0x5b53885371ab984!2sPs.%20Tanah%20Abang%2C%20Kb.%20Kacang%2C%20Kecamatan%20Tanah%20Abang%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1736409303382!5m2!1sid!2sid",
+    map: ["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5643105601935!2d106.80935627499007!3d-6.189009593798558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f69b7ca68c63%3A0x5b53885371ab984!2sPs.%20Tanah%20Abang%2C%20Kb.%20Kacang%2C%20Kecamatan%20Tanah%20Abang%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1736409303382!5m2!1sid!2sid","https://maps.app.goo.gl/KPNjS5y74SC3s7qh9"]
   },
   {
     id: 10,
@@ -386,7 +386,7 @@ export const production_data_lelang = [
       },
     ],
     alamat: ["Jakarta Pusat", "Pasar Tanah Abang, Blok B Lt SLG Los A No. 128"],
-    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5643105601935!2d106.80935627499007!3d-6.189009593798558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f69b7ca68c63%3A0x5b53885371ab984!2sPs.%20Tanah%20Abang%2C%20Kb.%20Kacang%2C%20Kecamatan%20Tanah%20Abang%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1736409303382!5m2!1sid!2sid",
+    map: ["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5643105601935!2d106.80935627499007!3d-6.189009593798558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f69b7ca68c63%3A0x5b53885371ab984!2sPs.%20Tanah%20Abang%2C%20Kb.%20Kacang%2C%20Kecamatan%20Tanah%20Abang%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1736409303382!5m2!1sid!2sid","https://maps.app.goo.gl/KPNjS5y74SC3s7qh9"]
   },
   {
     id: 11,
@@ -424,7 +424,7 @@ export const production_data_lelang = [
       },
     ],
     alamat: ["Jakarta Pusat", "Pasar Tanah Abang, Blok B Lt 3A Los B No. 138"],
-    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5643105601935!2d106.80935627499007!3d-6.189009593798558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f69b7ca68c63%3A0x5b53885371ab984!2sPs.%20Tanah%20Abang%2C%20Kb.%20Kacang%2C%20Kecamatan%20Tanah%20Abang%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1736409303382!5m2!1sid!2sid",
+    map: ["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5643105601935!2d106.80935627499007!3d-6.189009593798558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f69b7ca68c63%3A0x5b53885371ab984!2sPs.%20Tanah%20Abang%2C%20Kb.%20Kacang%2C%20Kecamatan%20Tanah%20Abang%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1736409303382!5m2!1sid!2sid","https://maps.app.goo.gl/KPNjS5y74SC3s7qh9"]
   },
   {
     id: 12,
@@ -459,6 +459,6 @@ export const production_data_lelang = [
       },
     ],
     alamat: ["Jakarta Pusat", "Pasar Tanah Abang, Blok B Lt SLG Los B No. 123"],
-    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5643105601935!2d106.80935627499007!3d-6.189009593798558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f69b7ca68c63%3A0x5b53885371ab984!2sPs.%20Tanah%20Abang%2C%20Kb.%20Kacang%2C%20Kecamatan%20Tanah%20Abang%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1736409303382!5m2!1sid!2sid",
+    map: ["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5643105601935!2d106.80935627499007!3d-6.189009593798558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f69b7ca68c63%3A0x5b53885371ab984!2sPs.%20Tanah%20Abang%2C%20Kb.%20Kacang%2C%20Kecamatan%20Tanah%20Abang%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1736409303382!5m2!1sid!2sid","https://maps.app.goo.gl/KPNjS5y74SC3s7qh9"]
   },
 ];
