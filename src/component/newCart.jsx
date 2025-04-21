@@ -8,7 +8,11 @@ import { LuMapPin } from "react-icons/lu";
 import { MdRemoveRedEye } from "react-icons/md";
 const NewCart = ({ data }) => {
   return (
-    <div className="property-item">
+    <Link
+      to={`/Page_Detail?${data.id}`}
+      className="property-item"
+      style={{ textDecoration: "none", color: "black" }}
+    >
       <div className="position-relative">
         <a href="#">
           <img src={data.cover} alt="Property" />
@@ -52,7 +56,7 @@ const NewCart = ({ data }) => {
           <MdRemoveRedEye className="icon_card" />
         </Link>
       </div>
-    </div>
+    </Link>
   );
 };
 
