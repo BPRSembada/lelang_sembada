@@ -9,7 +9,7 @@ import { MdRemoveRedEye } from "react-icons/md";
 const NewCart = ({ data }) => {
   return (
     <Link
-      to={`/Page_Detail?${data.id}`}
+      to={`/Page_Detail?id=${data.id}`}
       className="property-item"
       style={{ textDecoration: "none", color: "black" }}
     >
@@ -25,9 +25,7 @@ const NewCart = ({ data }) => {
       <div className="content_card">
         <div className="head_cardDes">
           <h6>Rp. {data.fiturs[0].HargaAwal.toLocaleString()}</h6>
-          <p>
-            <FaRegClock /> {data.waktu_publish}
-          </p>
+          <p>{/* <FaRegClock /> {data.waktu_publish} */}</p>
         </div>
         <h5>
           <IoPricetagsOutline /> Rp.{" "}
@@ -52,7 +50,7 @@ const NewCart = ({ data }) => {
           LB : {data.fiturs[0].LB}
           <sup>2</sup>
         </span>
-        <Link to={`/Page_Detail?${data.id}`} className="Link_detail">
+        <Link to={`/Page_Detail?id=${data.id}`} className="Link_detail">
           <MdRemoveRedEye className="icon_card" />
         </Link>
       </div>

@@ -8,6 +8,7 @@ import { production_data_lelang } from "../data/data_lelang";
 import { useState } from "react";
 import { useSelector } from "react-redux";
 import { Carousel } from "react-bootstrap";
+import { Helmet } from "react-helmet-async";
 
 const HomePage = () => {
   const [dataLelang, setDataLelang] = useState(production_data_lelang);
@@ -15,14 +16,14 @@ const HomePage = () => {
   console.log(data);
 
   const kategori = () => {
-    if (data === "jual") {
+    if (data === "Jual") {
       const jual = production_data_lelang.filter((item) => {
-        return item.status.includes("jual");
+        return item.status.includes("Jual");
       });
       setDataLelang(jual);
-    } else if (data === "lelang") {
+    } else if (data === "Lelang") {
       const lelang = production_data_lelang.filter((item) => {
-        return item.status.includes("lelang");
+        return item.status.includes("Lelang");
       });
       setDataLelang(lelang);
     } else {
@@ -33,12 +34,12 @@ const HomePage = () => {
   const HandleKategori = (kategori) => {
     if (kategori === "Jual") {
       const jual = production_data_lelang.filter((item) => {
-        return item.status.includes("jual");
+        return item.status.includes("Jual");
       });
       setDataLelang(jual);
     } else if (kategori === "Lelang") {
       const lelang = production_data_lelang.filter((item) => {
-        return item.status.includes("lelang");
+        return item.status.includes("Lelang");
       });
       setDataLelang(lelang);
     } else {
@@ -51,6 +52,14 @@ const HomePage = () => {
   }, [data]);
   return (
     <div>
+      <Helmet>
+        <title>Lelang Bank Sembada</title>
+        <meta name="description" content="web lelang AYDA Bank Sembada" />
+        <meta
+          name="description"
+          content="lelang, Agunan, Investasi, Property, hunian, rumah idaman, property murah, property berkualitas, lokasi strategis"
+        />
+      </Helmet>
       <div className="hero_home">
         <Carousel>
           <Carousel.Item>

@@ -8,7 +8,11 @@ import { LuMapPin } from "react-icons/lu";
 import { MdRemoveRedEye } from "react-icons/md";
 const NewCartRecom = ({ data }) => {
   return (
-    <div className="property-item-rek">
+    <Link
+      to={`/Page_Detail?id=${data.id}`}
+      className="property-item-rek"
+      style={{ textDecoration: "none" }}
+    >
       <div className="position-relative-rek">
         <a href="#">
           <img src={data.img[0]} alt="Property-rek" />
@@ -50,11 +54,11 @@ const NewCartRecom = ({ data }) => {
           LB : {data.fiturs[0].LB}
           <sup>2</sup>
         </span>
-        <Link to={`/Page_Detail?${data.id}`} className="Link_detail-rek">
+        <Link to={`/Page_Detail?id=${data.id}`} className="Link_detail-rek">
           <MdRemoveRedEye className="icon_card-rek" />
         </Link>
       </div>
-    </div>
+    </Link>
   );
 };
 

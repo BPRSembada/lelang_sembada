@@ -24,6 +24,7 @@
   box-shadow: 0 0 5px 5px rgba(53, 52, 52, 0.1);
   flex-basis: 50%;
   width: 100%;
+  height: fit-content;
 }
 .swiper {
   width: 100%;

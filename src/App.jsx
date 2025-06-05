@@ -12,12 +12,14 @@ import TopScroll from "./topScroll";
 
 // testing
 import PageDetail from "./page/Page_detail";
+import AnalitycsTracer from "./component/analyticsTracer";
 
 function App() {
   return (
     <>
       <div>
         <NaviBar />
+        <AnalitycsTracer />
         <TopScroll />
         <Routes>
           <Route path="/" element={<HomePage />} />

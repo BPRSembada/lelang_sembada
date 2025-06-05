@@ -34,7 +34,7 @@ const NaviBar = () => {
             <Nav className="me-auto"></Nav>
             <Nav>
               <Nav.Link href="/">Home</Nav.Link>
-              <NavDropdown title="Kategori" id="basic-nav-dropdown">
+              {/* <NavDropdown title="Kategori" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#All_kategori" onClick={handleAll}>
                   All
                 </NavDropdown.Item>
@@ -47,7 +47,7 @@ const NaviBar = () => {
                 >
                   Lelang Jaminan
                 </NavDropdown.Item>
-              </NavDropdown>
+              </NavDropdown> */}
               <Nav.Link href="/HubungiKami">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>

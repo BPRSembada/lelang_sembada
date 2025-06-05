@@ -15,6 +15,7 @@ export const production_data_lelang = [
   {
     id: 1,
     cover: "assets/lelang/hari_am_tanjung/cover.jpg",
+    atas_nama: "Hari AM Tanjung",
     img: [
       "assets/lelang/hari_am_tanjung/4.jpg",
       "assets/lelang/hari_am_tanjung/1.jpg",
@@ -22,11 +23,13 @@ export const production_data_lelang = [
       "assets/lelang/hari_am_tanjung/3.jpg",
     ],
     title_img: ["Tampak Depan", "Dapur", "Ruang Tamu", "Teras"],
-    deskripsi:
-      "Dekat dengan Rumah Sakit, 5 menit dari RSUP Persahabatan. Dekat Jakarta State University",
-    jenis_agunan: "Rumah Hunian",
+    deskripsi: [
+      "Dekat dengan Rumah Sakit, 5 menit dari RSUP Persahabatan.",
+      "Dekat Jakarta State University.",
+    ],
+    jenis_agunan: "Rumah Tinggal",
     waktu_publish: "1 Januari 2025",
-    status: "jual",
+    status: "Lelang",
     fiturs: [
       {
         LT: 585,
@@ -45,11 +48,15 @@ export const production_data_lelang = [
       "Pulogadung - Jakarta Timur",
       "Jalan Mustika jaya No. 6 RT 002 RW 011 Blok S, Kav. No. 418 & No. 434 - 435, Kel. Rawamangun Kec. Pulogadung",
     ],
-    map: ["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7604041114964!2d106.82655527498989!3d-6.162834093824405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5db31cfffff%3A0xe470c408c1219a57!2sPT.%20BPR%20Multi%20Sembada%20Dana!5e0!3m2!1sid!2sid!4v1736411500510!5m2!1sid!2sid","https://maps.app.goo.gl/TtAKuJWBuxmm3Fiw5"]
+    map: [
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7604041114964!2d106.82655527498989!3d-6.162834093824405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5db31cfffff%3A0xe470c408c1219a57!2sPT.%20BPR%20Multi%20Sembada%20Dana!5e0!3m2!1sid!2sid!4v1736411500510!5m2!1sid!2sid",
+      "https://maps.app.goo.gl/TtAKuJWBuxmm3Fiw5",
+    ],
   },
   {
     id: 2,
     cover: "assets/lelang/depok/depokCover.jpg",
+    atas_nama: "Tangguh Dwi Handoyo",
     img: [
       "assets/lelang/depok/depok1.jpg",
       "assets/lelang/depok/depok2.jpg",
@@ -57,11 +64,15 @@ export const production_data_lelang = [
       "assets/lelang/depok/depok4.jpg",
     ],
     title_img: ["Tampak Depan", "Tampak Halaman", "Kamar Tidur", "Ruang Tamu"],
-    deskripsi:
-      "Akses menuju lokasi melewati Jalan Puri Marina Raya, akses masuk perumahan persis di samping supermarket Grand Lucky",
-    jenis_agunan: "Rumah Hunian",
+    deskripsi: [
+      "Lokasi strategis, akses Tol, Pusat Perbelanjaan dan Pendidikan.",
+      "11 menit akses Mall Depok,",
+      "14 menit akses pintu Tol Cijago.",
+      "14 menit ke Universitas Indonesia.",
+    ],
+    jenis_agunan: "Rumah Tinggal",
     waktu_publish: "1 Januari 2025",
-    status: "lelang",
+    status: "Lelang",
     fiturs: [
       {
         LT: 89,
@@ -78,18 +89,31 @@ export const production_data_lelang = [
     ],
     alamat: [
       "Depok",
-      "Jl. Janger I No. 164, RT.05/RW.12 Kelurahan Mekar Jaya, Kecamatan Sukmajaya Kota Depok",
+      "Jl. Janger I No. 164, RT.05/RW.12 Kelurahan Mekar Jaya, Kecamatan Sukmajaya Kota Depok.",
     ],
-    map: ["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7604041114964!2d106.82655527498989!3d-6.162834093824405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5db31cfffff%3A0xe470c408c1219a57!2sPT.%20BPR%20Multi%20Sembada%20Dana!5e0!3m2!1sid!2sid!4v1736411500510!5m2!1sid!2sid","https://maps.app.goo.gl/TtAKuJWBuxmm3Fiw5"]
+    map: [
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7604041114964!2d106.82655527498989!3d-6.162834093824405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5db31cfffff%3A0xe470c408c1219a57!2sPT.%20BPR%20Multi%20Sembada%20Dana!5e0!3m2!1sid!2sid!4v1736411500510!5m2!1sid!2sid",
+      "https://maps.app.goo.gl/TtAKuJWBuxmm3Fiw5",
+    ],
   },
   {
     id: 3,
-    cover: "assets/lelang/jakbar/jakbarCover.jpg",
+    cover: "assets/lelang/mulyanto/cover_mulyanto.webp",
+    atas_nama: "Mulyanto",
     img: [
-      "assets/lelang/jakbar/jakbar1.jpg",
-      "assets/lelang/jakbar/jakbar2.jpg",
-      "assets/lelang/jakbar/jakbar3.jpg",
-      "assets/lelang/jakbar/jakbar4.jpg",
+      "assets/lelang/mulyanto/mulyanto_1.webp",
+      "assets/lelang/mulyanto/mulyanto_2.webp",
+      "assets/lelang/mulyanto/mulyanto_3.webp",
+      "assets/lelang/mulyanto/mulyanto_4.webp",
+      "assets/lelang/mulyanto/mulyanto_5.webp",
+      "assets/lelang/mulyanto/mulyanto_6.webp",
+      "assets/lelang/mulyanto/mulyanto_7.webp",
+      "assets/lelang/mulyanto/mulyanto_8.webp",
+      "assets/lelang/mulyanto/mulyanto_9.webp",
+      "assets/lelang/mulyanto/mulyanto_10.webp",
+      "assets/lelang/mulyanto/mulyanto_11.webp",
+      "assets/lelang/mulyanto/mulyanto_12.webp",
+      "assets/lelang/mulyanto/mulyanto_13.webp",
     ],
     title_img: [
       "Tampak Ruang",
@@ -97,11 +121,13 @@ export const production_data_lelang = [
       "Ruang Kerja 1",
       "Ruang Kerja 2",
     ],
-    deskripsi:
-      "Akses menuju lokasi melewati Jalan Puri Marina Raya, akses masuk perumahan persis di samping supermarket Grand Lucky",
-    jenis_agunan: "Rumah dan Toko",
+    deskripsi: [
+      "Dekat dengan transportasi umum, 8 menit ke stasiun Jakarta Kota, 8 menit ke stasiun Duri, 3 menit ke stasiun Angke.",
+      "Dekat dengan kawasan wisata, 10 menit ke Kota Tua Jakarta.",
+    ],
+    jenis_agunan: "Gedung 5 Lantai",
     waktu_publish: "1 Januari 2025",
-    status: "jual",
+    status: "Jual",
     fiturs: [
       {
         LT: 144,
@@ -113,7 +139,7 @@ export const production_data_lelang = [
         Garasi: 0,
         Sertif: "SHM",
         HargaAwal: 5600000000,
-        HargaAkhir: 4980000000,
+        HargaAkhir: 4500000000,
       },
     ],
     alamat: [
@@ -122,23 +148,36 @@ export const production_data_lelang = [
     ],
     map: [
       "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3966.9195637861503!2d106.803975!3d-6.141507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMDgnMjkuNCJTIDEwNsKwNDgnMTQuMyJF!5e0!3m2!1sid!2sid!4v1736398412400!5m2!1sid!2sid",
-      "https://maps.app.goo.gl/9Jet7SSntWMo77jD7",
+      "https://maps.app.goo.gl/LmDvuw8ZYSAqqqrdA",
     ],
   },
   {
     id: 4,
-    cover: "assets/lelang/pamulang/pamulangCover.jpg",
+    cover: "assets/lelang/jesaja_kosasih/cover_jesaja.webp",
+    atas_nama: "Jesaja Kosasih",
     img: [
-      "assets/lelang/pamulang/pamulang1.jpg",
-      "assets/lelang/pamulang/pamulang2.jpg",
-      "assets/lelang/pamulang/pamulang3.jpg",
+      "assets/lelang/jesaja_kosasih/jesaja_1.webp",
+      "assets/lelang/jesaja_kosasih/jesaja_2.webp",
+      "assets/lelang/jesaja_kosasih/jesaja_3.webp",
+      "assets/lelang/jesaja_kosasih/jesaja_4.webp",
+      "assets/lelang/jesaja_kosasih/jesaja_5.webp",
+      "assets/lelang/jesaja_kosasih/jesaja_6.webp",
+      "assets/lelang/jesaja_kosasih/jesaja_7.webp",
+      "assets/lelang/jesaja_kosasih/jesaja_8.webp",
+      "assets/lelang/jesaja_kosasih/jesaja_9.webp",
+      "assets/lelang/jesaja_kosasih/jesaja_10.webp",
+      "assets/lelang/jesaja_kosasih/jesaja_11.webp",
+      "assets/lelang/jesaja_kosasih/jesaja_12.webp",
+      "assets/lelang/jesaja_kosasih/jesaja_13.webp",
     ],
     title_img: ["Tampak Luar 1", "Tampak Luar 2", "Tampak Luar 3"],
-    deskripsi:
-      "Akses menuju lokasi melewati Jalan Puri Marina Raya, akses masuk perumahan persis di samping supermarket Grand Lucky",
+    deskripsi: [
+      "Dekat dengan pusat perbelanjaan 3 menit ke Pamulang Square.",
+      "Dekat ke UNPAM Witana Harja.",
+    ],
     jenis_agunan: "Rumah dan Toko",
     waktu_publish: "20 juli 2024",
-    status: "lelang",
+    status: "Lelang",
     fiturs: [
       {
         LT: 182,
@@ -157,11 +196,15 @@ export const production_data_lelang = [
       "Tangerang Selatan",
       "Ruko Pamulang Permai SH.22/04 RT.007/004 Desa Pamulang Barat Kec. Pamulang ",
     ],
-    map: ["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7604041114964!2d106.82655527498989!3d-6.162834093824405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5db31cfffff%3A0xe470c408c1219a57!2sPT.%20BPR%20Multi%20Sembada%20Dana!5e0!3m2!1sid!2sid!4v1736411500510!5m2!1sid!2sid","https://maps.app.goo.gl/TtAKuJWBuxmm3Fiw5"]
+    map: [
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7604041114964!2d106.82655527498989!3d-6.162834093824405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5db31cfffff%3A0xe470c408c1219a57!2sPT.%20BPR%20Multi%20Sembada%20Dana!5e0!3m2!1sid!2sid!4v1736411500510!5m2!1sid!2sid",
+      "https://maps.app.goo.gl/TtAKuJWBuxmm3Fiw5",
+    ],
   },
   {
     id: 5,
     cover: "assets/lelang/oscar/cover.jpg",
+    atas_nama: "Oskar",
     img: [
       "assets/lelang/oscar/1.jpg",
       "assets/lelang/oscar/2.jpg",
@@ -179,8 +222,12 @@ export const production_data_lelang = [
       "Teras Depan",
       "Lantai 2",
     ],
-    deskripsi:
-      "Dekat tempat wisata 14 menit ke wisata Saung keramba preto. Dekat pusat pembelanjaan 14 menit menuju Gran Galaxy Park",
+    deskripsi: [
+      "Dekat tempat wisata 14 menit ke wisata Saung keramba pret.",
+      "Dekat pusat pembelanjaan 14 menit menuju Gran Galaxy Park.",
+      "One Gate System",
+      "Row jalan lebar ±8meter",
+    ],
     jenis_agunan: "Rumah Tinggal",
     waktu_publish: "1 Januari 2025",
     status: "Jual",
@@ -195,14 +242,116 @@ export const production_data_lelang = [
         Garasi: 2,
         Sertif: "SHM",
         HargaAwal: 2800000000,
-        HargaAkhir: 2400000000,
+        HargaAkhir: 2200000000,
       },
     ],
     alamat: [
       "Kota Bekasi",
       "Komp. Kemang melati raya, Blok J no 4, Kel. Bojong Rawalumbu, Kec. Rawalumbu.",
     ],
-    map: ["https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3965.84508204769!2d106.98066999999999!3d-6.284085999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMTcnMDIuNyJTIDEwNsKwNTgnNTAuNCJF!5e0!3m2!1sid!2sid!4v1736398239600!5m2!1sid!2sid","https://maps.app.goo.gl/4vVMXb1vRzm6bwrs7"]
+    map: [
+      "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3965.84508204769!2d106.98066999999999!3d-6.284085999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMTcnMDIuNyJTIDEwNsKwNTgnNTAuNCJF!5e0!3m2!1sid!2sid!4v1736398239600!5m2!1sid!2sid",
+      "https://maps.app.goo.gl/cAqcDtZhjEJ79TsD8",
+    ],
+  },
+  {
+    id: 6,
+    cover: "assets/lelang/arum/cover.jpg",
+    atas_nama: "Arum Rosmalia",
+    img: [
+      "assets/lelang/arum/8.jpg",
+      "assets/lelang/arum/1.jpg",
+      "assets/lelang/arum/2.jpg",
+      "assets/lelang/arum/3.jpg",
+      "assets/lelang/arum/4.jpg",
+      "assets/lelang/arum/5.jpg",
+      "assets/lelang/arum/6.jpg",
+      "assets/lelang/arum/7.jpg",
+    ],
+    title_img: [
+      "Tampak Depan",
+      "Carport",
+      "Hall",
+      "Dapur",
+      "Hall",
+      "Teras Depan",
+      "Lantai 2",
+    ],
+    deskripsi: ["One Gate System", "Row jalan lebar ±8meter"],
+    jenis_agunan: "Rumah Tinggal",
+    waktu_publish: "1 Januari 2025",
+    status: "Jual",
+    fiturs: [
+      {
+        LT: 120,
+        LB: 116,
+        LnT: 2,
+        KT: 3,
+        KM: 2,
+        RT: 1,
+        Garasi: 1,
+        Sertif: "-",
+        HargaAwal: 1700000000,
+        HargaAkhir: 1580000000,
+      },
+    ],
+    alamat: [
+      "Tangerang Selatan",
+      "Grand Serpong 2 Blok B no.10 Kel. Serua, Kec. Ciputat, Kota Tangerang Selatan, Banten 15414.",
+    ],
+    map: ["-", "https://maps.app.goo.gl/3tYv6ohWqGPBAaJB8"],
+  },
+  {
+    id: 7,
+    cover: "assets/lelang/ani/cover_ani.webp",
+    atas_nama: "Ani Rizpiani",
+    img: [
+      "assets/lelang/ani/ani_1.webp",
+      "assets/lelang/ani/ani_2.webp",
+      "assets/lelang/ani/ani_3.webp",
+      "assets/lelang/ani/ani_4.webp",
+      "assets/lelang/ani/ani_5.webp",
+      "assets/lelang/ani/ani_6.webp",
+      "assets/lelang/ani/ani_7.webp",
+      "assets/lelang/ani/ani_8.webp",
+      "assets/lelang/ani/ani_9.webp",
+      "assets/lelang/ani/ani_10.webp",
+      "assets/lelang/ani/ani_11.webp",
+      "assets/lelang/ani/ani_12.webp",
+      "assets/lelang/ani/ani_13.webp",
+    ],
+    title_img: [
+      "Tampak Depan",
+      "Carport",
+      "Hall",
+      "Dapur",
+      "Hall",
+      "Teras Depan",
+      "Lantai 2",
+    ],
+    deskripsi: ["One Gate System", "Row jalan lebar ±8meter"],
+    jenis_agunan: "Rumah Tinggal",
+    waktu_publish: "1 Januari 2025",
+    status: "Jual",
+    fiturs: [
+      {
+        LT: 152,
+        LB: 229,
+        LnT: 2,
+        KT: 5,
+        KM: 5,
+        RT: 1,
+        Garasi: 2,
+        Sertif: "-",
+        HargaAwal: 2500000000,
+        HargaAkhir: 2300000000,
+      },
+    ],
+    alamat: [
+      "Bekasi",
+      "The Regent Residence Blok A no.1. Jl. Jurdil, Kel. Jati Mekar, Kec. Jatiasih.",
+    ],
+    map: ["-", "https://maps.app.goo.gl/PDJkbifoauJaZqGs6 "],
   },
   // {
   //   id: 6,
@@ -331,13 +480,14 @@ export const production_data_lelang = [
   {
     id: 9,
     cover: "assets/lelang/hikmah_gs_batik/cover.jpg",
+    atas_nama: "Hikmah",
     img: [
       "assets/lelang/hikmah_gs_batik/1.jpg",
       "assets/lelang/hikmah_gs_batik/2.jpg",
       "assets/lelang/hikmah_gs_batik/3.jpg",
     ],
     title_img: ["Tampak Depan 1", "Tampak Depan 2", "Tampak Depan 3"],
-    deskripsi: "-",
+    deskripsi: ["-"],
     jenis_agunan: "Toko",
     waktu_publish: "21 Januari 2025",
     status: "Jual",
@@ -356,18 +506,22 @@ export const production_data_lelang = [
       },
     ],
     alamat: ["Jakarta Pusat", "Pasar Tanah Abang, Blok B Lt SLG Los A No. 128"],
-    map: ["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5643105601935!2d106.80935627499007!3d-6.189009593798558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f69b7ca68c63%3A0x5b53885371ab984!2sPs.%20Tanah%20Abang%2C%20Kb.%20Kacang%2C%20Kecamatan%20Tanah%20Abang%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1736409303382!5m2!1sid!2sid","https://maps.app.goo.gl/KPNjS5y74SC3s7qh9"]
+    map: [
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5643105601935!2d106.80935627499007!3d-6.189009593798558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f69b7ca68c63%3A0x5b53885371ab984!2sPs.%20Tanah%20Abang%2C%20Kb.%20Kacang%2C%20Kecamatan%20Tanah%20Abang%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1736409303382!5m2!1sid!2sid",
+      "https://maps.app.goo.gl/KPNjS5y74SC3s7qh9",
+    ],
   },
   {
     id: 10,
     cover: "assets/lelang/hikmah_may_batik/cover.jpg",
+    atas_nama: "Hikmah",
     img: [
       "assets/lelang/hikmah_may_batik/1.jpg",
       "assets/lelang/hikmah_may_batik/3.jpg",
       "assets/lelang/hikmah_may_batik/4.jpg",
     ],
     title_img: ["Tampak Depan 1", "Tampak Depan 2", "Tampak Depan 3"],
-    deskripsi: "-",
+    deskripsi: ["-"],
     jenis_agunan: "Toko",
     waktu_publish: "21 Januari 2025",
     status: "Jual",
@@ -386,11 +540,15 @@ export const production_data_lelang = [
       },
     ],
     alamat: ["Jakarta Pusat", "Pasar Tanah Abang, Blok B Lt SLG Los A No. 128"],
-    map: ["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5643105601935!2d106.80935627499007!3d-6.189009593798558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f69b7ca68c63%3A0x5b53885371ab984!2sPs.%20Tanah%20Abang%2C%20Kb.%20Kacang%2C%20Kecamatan%20Tanah%20Abang%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1736409303382!5m2!1sid!2sid","https://maps.app.goo.gl/KPNjS5y74SC3s7qh9"]
+    map: [
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5643105601935!2d106.80935627499007!3d-6.189009593798558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f69b7ca68c63%3A0x5b53885371ab984!2sPs.%20Tanah%20Abang%2C%20Kb.%20Kacang%2C%20Kecamatan%20Tanah%20Abang%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1736409303382!5m2!1sid!2sid",
+      "https://maps.app.goo.gl/KPNjS5y74SC3s7qh9",
+    ],
   },
   {
     id: 11,
     cover: "assets/lelang/kamaludin/cover.jpg",
+    atas_nama: "Kamaludin",
     img: [
       "assets/lelang/kamaludin/1.jpg",
       "assets/lelang/kamaludin/2.jpg",
@@ -405,10 +563,10 @@ export const production_data_lelang = [
       "Foto Tampak Ruko 4",
       "Foto Tampak Ruko 5",
     ],
-    deskripsi: "-",
+    deskripsi: ["-"],
     jenis_agunan: "Toko",
     waktu_publish: "21 Januari 2025",
-    status: "lelang",
+    status: "Jual",
     fiturs: [
       {
         LT: "-",
@@ -424,11 +582,15 @@ export const production_data_lelang = [
       },
     ],
     alamat: ["Jakarta Pusat", "Pasar Tanah Abang, Blok B Lt 3A Los B No. 138"],
-    map: ["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5643105601935!2d106.80935627499007!3d-6.189009593798558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f69b7ca68c63%3A0x5b53885371ab984!2sPs.%20Tanah%20Abang%2C%20Kb.%20Kacang%2C%20Kecamatan%20Tanah%20Abang%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1736409303382!5m2!1sid!2sid","https://maps.app.goo.gl/KPNjS5y74SC3s7qh9"]
+    map: [
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5643105601935!2d106.80935627499007!3d-6.189009593798558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f69b7ca68c63%3A0x5b53885371ab984!2sPs.%20Tanah%20Abang%2C%20Kb.%20Kacang%2C%20Kecamatan%20Tanah%20Abang%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1736409303382!5m2!1sid!2sid",
+      "https://maps.app.goo.gl/KPNjS5y74SC3s7qh9",
+    ],
   },
   {
     id: 12,
     cover: "assets/lelang/romi/cover.jpg",
+    atas_nama: "Romi",
     img: [
       "assets/lelang/romi/1.jpg",
       "assets/lelang/romi/2.jpg",
@@ -440,7 +602,7 @@ export const production_data_lelang = [
       "Foto Tampak Ruko 2",
       "Foto Tampak Ruko 3",
     ],
-    deskripsi: "-",
+    deskripsi: ["-"],
     jenis_agunan: "Toko",
     waktu_publish: "21 Januari 2025",
     status: "Jual",
@@ -459,6 +621,9 @@ export const production_data_lelang = [
       },
     ],
     alamat: ["Jakarta Pusat", "Pasar Tanah Abang, Blok B Lt SLG Los B No. 123"],
-    map: ["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5643105601935!2d106.80935627499007!3d-6.189009593798558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f69b7ca68c63%3A0x5b53885371ab984!2sPs.%20Tanah%20Abang%2C%20Kb.%20Kacang%2C%20Kecamatan%20Tanah%20Abang%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1736409303382!5m2!1sid!2sid","https://maps.app.goo.gl/KPNjS5y74SC3s7qh9"]
+    map: [
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5643105601935!2d106.80935627499007!3d-6.189009593798558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f69b7ca68c63%3A0x5b53885371ab984!2sPs.%20Tanah%20Abang%2C%20Kb.%20Kacang%2C%20Kecamatan%20Tanah%20Abang%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1736409303382!5m2!1sid!2sid",
+      "https://maps.app.goo.gl/KPNjS5y74SC3s7qh9",
+    ],
   },
 ];
